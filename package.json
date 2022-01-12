@@ -1,0 +1,24 @@
+{
+  "name": "restaurantreviewsblog",
+  "version": "1.0.0",
+  "description": "This was created to maintain Reviews blog to compile all the reviews of the website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.5",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "supervisor": "^0.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
